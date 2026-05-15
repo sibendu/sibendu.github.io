@@ -1,0 +1,217 @@
+{
+  "name": "Sibendu Das",
+  "role": "Architect - Agentic AI, Cloud, Digital",
+  "tagline": "Transforming enterprise technology at scale with agentic AI, cloud-native architecture, and executive-ready delivery leadership.", 
+  "location": "Kolkata, India",
+  "email": "sibendu.das@gmail.com",
+  "phone": "+91 9898989898",
+  "linkedin": "https://www.linkedin.com/in/sibendu-das/",
+  "github": "https://github.com/sibendu",
+  "resume": "#",
+  "formEndpoint": "",
+  "availability": "AI, Agentic AI, cloud, digital platforms, and delivery leadership", 
+  "summary": "Staying anchored to the business problem, staying hands-on with the technology, and making sure neither runs ahead of the other.",
+  "heroParagraphs": [
+    "Biggest lesson from twenty-six years in architecture: architects should not fall in love with the blueprint.",
+    "So staying anchored to the business problem, staying hands-on with the technology, and making sure neither runs ahead of the other.",
+    "On AI: building relentlessly since the ChatGPT moment: agentic systems, multi-agent workflows, RAG pipelines, and responsible governance. Not whitepapers, production-grade systems with measured values as well as numerous POCs."
+  ],
+  "metrics": [
+    {
+      "label": "Enterprise technology leadership",
+      "value": "26 yrs"
+    },
+    {
+      "label": "Largest program ownership",
+      "value": "$40M+"
+    },
+    {
+      "label": "AI transformation ROI",
+      "value": ">300%"
+    }
+  ],
+  "highlights": [
+    "Delivered production RAG and multi-agent systems with security, observability, and measurable business ROI.",
+    "Currently managing architecture across a large application portfolio and leading multiple major programs.",
+    "Led architecture center-of-excellence, mentoring and recruiting senior architects while enabling global delivery teams of 100+.",
+    "Executed 20+ strategic architecture engagements and shaped 30+ large pursuits and pilots for global enterprise accounts.",
+    "Bridges technical depth and executive communication across cloud, AI, enterprise integration, and regulated business domains."
+  ],
+  "focusAreas": [
+    {
+      "title": "Agentic AI and Enterprise AI Adoption",
+      "description": "Shaping production-oriented AI systems with attention to architecture, evaluation, governance, observability, and responsible adoption. AI enablement across SDLC."
+    },
+    {
+      "title": "Solution Architecture",
+      "description": "Designing secure, scalable distributed systems across cloud platforms, APIs, microservices, Kubernetes, and integration landscapes."
+    },
+    {
+      "title": "Enterprise Architecture Direction",
+      "description": "Connecting business priorities with architecture roadmaps, lead transformation programs, modernization choices, governance models, and long-term technology evolution."
+    },
+    {
+      "title": "Executive Technology Communication",
+      "description": "Translating complex technical trade-offs into clear narratives for senior stakeholders, architecture forums, and delivery leadership."
+    }
+  ],
+  "demos": [
+    {
+      "slug": "medical-agent-pre-interviewing-patient",
+      "title": "Medical Agent Pre-Interviewing Patient",
+      "description": "A demonstration of an AI medical agent collecting preliminary patient context before a clinical conversation.",
+      "date": "2024-10-24",
+      "tags": [
+        "Agentic AI",
+        "Healthcare",
+        "Patient Intake"
+      ],
+      "featured": true,
+      "youtube": "https://youtu.be/XgbbD7MtxNg"
+    },
+    {
+      "slug": "advanced-autonomous-development-claude-code-agent-teams",
+      "title": "Advanced & Autonomous Development with Claude Code Agent Teams",
+      "description": "A demonstration of agent-team based software development using Claude Code for complex, autonomous implementation workflows.",
+      "date": "2026-05-14",
+      "tags": [
+        "Claude Code",
+        "Agent Teams",
+        "AI-Assisted Development"
+      ],
+      "featured": true,
+      "youtube": "https://youtu.be/wrIuIBlQVNE"
+    }
+  ],
+  "experience": [
+    {
+      "period": "Feb 2020 - Present",
+      "title": "Digital Architect",
+      "company": "Healthcare Major, Digital & Innovation Platform",
+      "description": "Managing architecture across a large application portfolio and leading multiple large programs, including Agentic AI solutions in production."
+    },
+    {
+      "period": "Apr 2017 - Jan 2020",
+      "title": "Principal Solution Engineer",
+      "company": "Oracle, Sales & Solution Engineering",
+      "description": "Served as trusted technical advisor to senior leadership for cloud strategy and adoption. Technologist and SME covering vast technology offerings. Solution engineer for pre-sales technology work."
+    },
+    {
+      "period": "Jan 2008 - Mar 2017",
+      "title": "Principal Architect",
+      "company": "Cognizant Technology Solutions, Global Technology Office",
+      "description": "Architecture work for marquee enterprise accounts. Owned architecture for large-scale transformation programs, including a $40M+ cloud-native engagement, led global teams of 100+. Led architecture CoE, managing, mentoring and recruiting senior architects, and driving thought leadership."
+    },
+    {
+      "period": "Jul 2000 - Dec 2007",
+      "title": "Solution Architect",
+      "company": "Tata Consultancy Services, Multiple Accounts",
+      "description": "Progressed from programmer to solution architect across the end-to-end software lifecycle. Served as technical architect for a leading banking and insurance suite with a successful flagship rollout."
+    }
+  ],
+  "capabilities": [
+    {
+      "group": "Gen AI, Agentic AI, Applied AI",
+      "items": [
+        "Azure OpenAI",
+        "Anthropic Claude",
+        "Claude API",
+        "Claude Code",
+        "LangChain",
+        "LangGraph",
+        "CrewAI",
+        "AutoGen",
+        "Google ADK",
+        "RAG patterns",
+        "MCP",
+        "A2A",
+        "Azure AI Search",
+        "Chroma",
+        "FAISS",
+        "Pinecone",
+        "LLMOps",
+        "Evals",
+        "Guardrails",
+        "Langfuse"
+      ]
+    },
+    {
+      "group": "Cloud, Architecture, Integration",
+      "items": [
+        "AWS",
+        "Azure",
+        "GCP",
+        "OCI",
+        "API security",
+        "Microservices",
+        "Kubernetes",
+        "Docker",
+        "Service mesh",
+        "SOA",
+        "Event-driven architecture",
+        "Kafka",
+        "iPaaS",
+        "BPM",
+        "ESB"
+      ]
+    },
+    {
+      "group": "Engineering, Data, DevSecOps",
+      "items": [
+        "Python",
+        "FastAPI",
+        "Streamlit",
+        "Gradio",
+        "Java",
+        "Spring Boot",
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Oracle",
+        "PostgreSQL",
+        "Redis",
+        "MongoDB",
+        "GitHub",
+        "Azure DevOps",
+        "Terraform",
+        "GitOps",
+        "SRE"
+      ]
+    },
+    {
+      "group": "Enterprise and Leadership",
+      "items": [
+        "TOGAF",
+        "Zachman",
+        "Archimate",
+        "BPMN",
+        "GDPR",
+        "HIPAA",
+        "SOX",
+        "Agile",
+        "Scrum",
+        "Kanban",
+        "SAFe",
+        "Architecture CoE",
+        "Mentoring",
+        "Program delivery"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Engineering, Electrical Engineering",
+      "institution": "Jadavpur University, India",
+      "period": "1996 - 2000"
+    }
+  ],
+  "interests": [
+    "Family",
+    "Friends",
+    "Reading",
+    "Movies",
+    "Fitness",
+    "Travel",
+    "Trekking"
+  ]
+}
