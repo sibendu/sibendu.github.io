@@ -2,7 +2,7 @@
 
 Research date: 2026-05-03
 
-## Shortlist
+## Shortlist 
 
 1. Astro + MDX portfolio/blog direction
    - Best fit for a content-led professional site.
