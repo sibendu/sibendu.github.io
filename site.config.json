@@ -1,6 +1,6 @@
 {
   "name": "Sibendu Das",
-  "role": "Architect - Agentic AI, Cloud, Digital",
+  "role": "Enterprise AI, cloud transformation, and engineering architecture leadership",
   "tagline": "Transforming enterprise technology at scale with agentic AI, cloud-native architecture, and executive-ready delivery leadership.", 
   "location": "Kolkata, India",
   "email": "sibendu.das@gmail.com",
@@ -9,7 +9,7 @@
   "github": "https://github.com/sibendu",
   "resume": "#",
   "formEndpoint": "",
-  "availability": "AI, Agentic AI, cloud, digital platforms, and delivery leadership", 
+  "availability": "", 
   "summary": "Staying anchored to the business problem, staying hands-on with the technology, and making sure neither runs ahead of the other.",
   "heroParagraphs": [
     "Biggest lesson from twenty-six years in architecture: architects should not fall in love with the blueprint.",
@@ -31,12 +31,64 @@
     }
   ],
   "highlights": [
-    "Delivered production RAG and multi-agent systems with security, observability, and measurable business ROI.",
+    "Delivered production Enterprise AI sytsems using RAG and multi-agent with security, observability, and measurable business ROI.",
     "Currently managing architecture across a large application portfolio and leading multiple major programs.",
-    "Led architecture center-of-excellence, mentoring and recruiting senior architects while enabling global delivery teams of 100+.",
-    "Executed 20+ strategic architecture engagements and shaped 30+ large pursuits and pilots for global enterprise accounts.",
-    "Bridges technical depth and executive communication across cloud, AI, enterprise integration, and regulated business domains."
+    "Led architecture center-of-excellence, mentoring and recruiting senior architects. Strategic Consulting for premier customers across the globe.",
+    "Architecture ownership of $40M+ cloud-native transformation program, leading  global delivery teams of 100+.",
+    "Advisory to Executive stakeholder. Bridge technical depth and executive communication across cloud, AI, enterprise integration, and regulated business domains."
   ],
+  "howIWork": {
+    "intro": "I work where strategy, architecture, implementation, governance, and delivery have to line up in the real enterprise.",
+    "principles": [
+      {
+        "title": "Hands-on where it matters",
+        "description": "Close enough to the technology to challenge implementation choices, validate architecture patterns, and keep delivery grounded in what can actually be built."
+      },
+      {
+        "title": "Executive in the conversation",
+        "description": "Able to shape strategy, communicate trade-offs clearly, and connect technical direction to business outcomes, risk, investment, and operating model."
+      },
+      {
+        "title": "Pragmatic about control",
+        "description": "Governance is useful only when it improves delivery. I focus on measurable ROI, delivery confidence, responsible adoption, and controls teams can live with."
+      },
+      {
+        "title": "Calm in ambiguity",
+        "description": "Comfortable in large enterprise environments where goals evolve, constraints surface late, ownership is distributed, and alignment is part of the work."
+      }
+    ]
+  },
+  "recommendations": {
+    "title": "What colleagues and leaders have said",
+    "intro": "\"A man's reputation is the opinion people have of him; his character is what he really is.\" --- Here are just few of the opinions I am humbled and grateful for.",
+    "linkedinUrl": "https://www.linkedin.com/in/sibendu-das/details/recommendations/",
+    "items": [
+      {
+        "text": "What sets Sibendu apart is his rare ability to bridge the gap between high-level business strategy and tangible execution. He doesn't just design architectures; he builds a roadmap for the future.",
+        "person": "Enterprise solutions architect, digital transformation, cloud and AI"
+      },
+      {
+        "text": "Exceptional Software Architect. deep expertise in system architecture and modern technologies enables him to design scalable, resilient, and efficient systems. What truly sets him apart is his ability to communicate complex technical concepts in a way that’s easy for both technical and non-technical stakeholders to understand. lucky to be mentored by him.",
+        "person": "Senior member of technical staff, cloud infrastructure and enterprise software"
+      },
+      {
+        "text": "I was very fortunate to get a mentor like Sibendu during my early days of IT experience. He has a rare blend of skills starting from application design, solution architecture to application portfolio rationalization and enterprise architecture. ",
+        "person": "Director, Tier-1 Consulting"
+      },
+      {
+        "text": "Great architecture and technology mindset. always open to exploring new ways of doing things. He managed some complex customers in South & East India region, able to establish rapport with senior customer executives. also ready jump in and deep dive on any issue.",
+        "person": "AI and cloud sales leader"
+      },
+      {
+        "text": "He has a rare blend of skills starting from application design and solution architecture to application portfolio rationalization and enterprise architecture.",
+        "person": "Director, technology consulting"
+      },
+      {
+        "text": "He is an excellent team member, natural leader, innovator, and free thinker. He has been consistent in his dedication to the client cause, which helped him earn a high client reputation.",
+        "person": "Chief enterprise architecture consultant"
+      }
+    ]
+  },
   "focusAreas": [
     {
       "title": "Agentic AI and Enterprise AI Adoption",

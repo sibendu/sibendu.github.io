@@ -281,7 +281,15 @@ h3 {
 }
 
 .visual-caption strong {
-  display: block;
+  display: inline-block;
+  margin-bottom: 8px;
+  padding: 7px 10px 7px 12px;
+  border-left: 3px solid var(--accent);
+  border-radius: 6px;
+  background: linear-gradient(90deg, rgba(0, 109, 119, 0.14), rgba(155, 61, 47, 0.08));
+  color: #005b64;
+  font-size: 1.04rem;
+  line-height: 1.28;
 }
 
 .visual-caption span {
@@ -358,6 +366,43 @@ h3 {
   border-top: 3px solid var(--accent);
   color: #3d4142;
   font-weight: 650;
+}
+
+.work-grid {
+  counter-reset: work;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.work-item {
+  counter-increment: work;
+  min-height: 260px;
+  padding: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: var(--radius);
+  background: var(--dark-2);
+}
+
+.work-index {
+  display: inline-grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  margin-bottom: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 50%;
+  color: rgba(255, 255, 255, 0.74);
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+.work-index::before {
+  content: counter(work, decimal-leading-zero);
+}
+
+.work-item p {
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .card {
@@ -473,6 +518,45 @@ a.card:hover {
   gap: 8px;
   color: var(--muted);
   font-size: 0.88rem;
+}
+
+.recommendation-band {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.36), transparent 44%),
+    var(--bg);
+}
+
+.recommendation-panel {
+  border-top: 1px solid var(--line);
+  padding-top: 22px;
+}
+
+.recommendation-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.recommendation-card {
+  min-height: 210px;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.recommendation-card p {
+  margin: 0;
+  color: #373b3d;
+  font-size: 1.02rem;
+}
+
+.recommendation-card span {
+  display: block;
+  margin-top: 20px;
+  color: var(--accent);
+  font-size: 0.92rem;
+  font-weight: 800;
 }
 
 .article-layout {
@@ -642,6 +726,8 @@ a.card:hover {
   .metric-grid,
   .card-grid,
   .highlight-list,
+  .work-grid,
+  .recommendation-grid,
   .capability-grid {
     grid-template-columns: 1fr;
   }

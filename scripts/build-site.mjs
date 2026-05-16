@@ -221,6 +221,36 @@ function heroParagraphs() {
   return paragraphs.filter(Boolean).map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("");
 }
 
+function recommendationsSection() {
+  const recommendations = config.recommendations || {};
+  const items = Array.isArray(recommendations.items) ? recommendations.items : [];
+  const recommendationCards = items.length
+    ? `<div class="recommendation-grid">
+        ${items.map((item) => `
+          <article class="recommendation-card">
+            <p>${escapeHtml(item.text)}</p>
+            <span>${escapeHtml(item.person)}</span>
+          </article>
+        `).join("")}
+      </div>`
+    : "";
+
+  return `<section class="band recommendation-band" id="recommendations">
+    <div class="section">
+      <div class="section-head">
+        <h2>${escapeHtml(recommendations.title || "What colleagues and leaders have said")}</h2>
+        <p>${escapeHtml(recommendations.intro || "")}</p>
+      </div>
+      <div class="recommendation-panel">
+        ${recommendationCards}
+        <div class="section-actions">
+          <a class="button secondary" href="${escapeHtml(recommendations.linkedinUrl || config.linkedin)}">View LinkedIn recommendations</a>
+        </div>
+      </div>
+    </div>
+  </section>`;
+}
+
 function layout({ title, description, body, active = "" }) {
   const pageTitle = title === config.name ? title : `${title} | ${config.name}`;
   return `<!doctype html>
@@ -320,6 +350,23 @@ function homePage(articles, demos) {
           </div>
         </div>
       </section>
+      <section class="band dark" id="how-i-work">
+        <div class="section">
+          <div class="section-head">
+            <h2>How I Work</h2>
+            <p>${escapeHtml(config.howIWork.intro)}</p>
+          </div>
+          <div class="work-grid">
+            ${config.howIWork.principles.map((principle) => `
+              <article class="work-item">
+                <span class="work-index" aria-hidden="true"></span>
+                <h3>${escapeHtml(principle.title)}</h3>
+                <p>${escapeHtml(principle.description)}</p>
+              </article>
+            `).join("")}
+          </div>
+        </div>
+      </section>
       <section class="band" id="experience">
         <div class="section">
           <div class="section-head">
@@ -380,12 +427,13 @@ function homePage(articles, demos) {
           </div>
         </div>
       </section>
+      ${recommendationsSection()}
       <section class="band" id="links">
         <div class="section">
           <div>
             <p class="eyebrow">Links</p>
             <h2>Public profiles and references.</h2>
-            <p class="lede">Selected public links for articles, demos, code, and professional background.</p>
+            <p class="lede">For architecture, AI transformation, engineering leadership conversations, or speaking, connect with me on LinkedIn.</p>
             <div class="public-links">
               <a href="${escapeHtml(config.linkedin)}">LinkedIn</a>
               <a href="${escapeHtml(config.github)}">GitHub</a>
@@ -501,6 +549,24 @@ const searchIndex = [...articles, ...demos, ...config.focusAreas.map((focusArea,
   body: capability.items.join(" "),
   url: "/#capabilities",
   slug: `capability-${index}`
+})), ...(config.howIWork?.principles || []).map((principle, index) => ({
+  title: principle.title,
+  description: principle.description,
+  date: "Profile",
+  type: "How I Work",
+  tags: ["How I Work"],
+  body: `${config.howIWork.intro} ${principle.description}`,
+  url: "/#how-i-work",
+  slug: `how-i-work-${index}`
+})), ...(config.recommendations?.items || []).map((recommendation, index) => ({
+  title: config.recommendations.title,
+  description: recommendation.text,
+  date: "Profile",
+  type: "Recommendation",
+  tags: ["Recommendations"],
+  body: `${recommendation.text} ${recommendation.person}`,
+  url: "/#recommendations",
+  slug: `recommendation-${index}`
 })), ...config.experience.map((experience, index) => ({
   title: `${experience.title} - ${experience.company}`,
   description: experience.description,
