@@ -44,7 +44,7 @@ All demo pages use the same HTML template. After editing `site.config.json`, reb
 
 ```powershell
 node scripts/build-site.mjs
-node scripts/serve.mjs
+  node scripts/serve.mjs
 ```
 
 Open `http://localhost:4173`.

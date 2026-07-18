@@ -133,6 +133,20 @@
       ],
       "featured": true,
       "youtube": "https://youtu.be/wrIuIBlQVNE"
+    },
+    {
+      "slug": "spec-driven-development-with-bmad",
+      "title": "Spec-Driven Development with BMAD: From Intent to Working SaaS Capability",
+      "description": "A demonstration of BMAD as an engineering control plane, turning a bounded user-management story into a traceable, production-oriented SaaS capability—from specification and agentic execution to validation and delivery.",
+      "date": "2026-07-18",
+      "tags": [
+        "Spec-Driven Development",
+        "BMAD",
+        "Agentic AI",
+        "SaaS Delivery"
+      ],
+      "featured": true,
+      "youtube": "https://www.youtube.com/watch?v=0h9-9I1Uwb4"
     }
   ],
   "experience": [
