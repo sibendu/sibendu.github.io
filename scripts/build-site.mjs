@@ -40,7 +40,12 @@ function inlineMarkdown(value) {
   let html = escapeHtml(value);
   html = html.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
   html = html.replace(/`([^`]+)`/g, "<code>$1</code>");
-  html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
+  html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_, label, href) => {
+    const attributes = /^https?:\/\/(?:[a-z0-9-]+\.)*linkedin\.com\//i.test(href)
+      ? ' target="_blank" rel="noopener noreferrer"'
+      : "";
+    return `<a href="${href}"${attributes}>${label}</a>`;
+  });
   return html;
 }
 
